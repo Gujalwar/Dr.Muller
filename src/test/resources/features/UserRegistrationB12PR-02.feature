@@ -1,12 +1,12 @@
 Feature: Registration Page Functions
 
-  @AC01
+  @US2AC01
   Scenario: User should be able to see registration page
     Given The user is on home page
     When The user clicks on account
     Then The user is able to see registration page
 
-    @AC02
+    @US2AC02
     Scenario: User should be able to get an error message when he/she incorrectly fills the required fields or keep it empty
       Given The user is on home page
       When The user clicks on account
@@ -23,7 +23,7 @@ Feature: Registration Page Functions
       Then The user clicks on register button
       Then The user gets an error message
 
-  @AC03
+  @US2AC03
   Scenario: User should be able to register with valid data
         Given The user is on home page
         When The user clicks on account
@@ -40,7 +40,7 @@ Feature: Registration Page Functions
         Then The user clicks on register button
         Then The user is able to register successfully
 
-       @AC04
+       @US2AC04
         Scenario: User gets an error message when tries to enter password less than 6 character
           Given The user is on home page
           When The user clicks on account
